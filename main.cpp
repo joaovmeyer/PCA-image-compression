@@ -74,8 +74,8 @@ int main() {
 	Graph graph;
 
 	// load the image
-	vector<Mat> channels = getImageChannels("images/Lenna.png");
-//	vector<Mat> channels = { getImageGrayscale("images/Lenna.png") };
+	vector<Mat> channels = getImageChannels("images/city.jpg");
+//	vector<Mat> channels = { getImageGrayscale("images/city.jpg") };
 
 	// build the dataset. Each row of the image will be a data point
 	vector<Dataset> imgs(channels.size());
